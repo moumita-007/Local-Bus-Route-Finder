@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Local Bus Route </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcu-icon" type="text/css" href="images/logo.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+  <!---Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-light mb-0">
+        <div class="container py-4">
+            <a class="navbar-brand"  href="index.html" ><img src="images/logo.png">Local Bus Route</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="maps.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="searchbus.php">Search Bus</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="searchroute.php">Search Route</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="feeddback.php">Feedback</a>
+                  </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.php">Log-in/Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- C A R O U S E L-->
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <a href="index.html">
+                     <picture>
+                      <source srcset="images/slider1.jpg" media="(min-width: 1400px)">
+                      <source srcset="images/slider1.jpg" media="(min-width: 769px)">
+                       <source srcset="images/slider1.jpg" media="(min-width: 577px)">
+                      <img srcset="images/slider1.jpg" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+
+                    <div class="carousel-caption">
+                        <div>
+                            <h2 style="color: #00FF00;">DHAKA</h2>
+                            <p style="color: #00FF00;">The sixth-most densely populated city in the world</p>
+                         
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+            <div class="carousel-item">
+                <a href="index.html/">
+                     <picture>
+                      <source srcset="images/slider2.jpg" media="(min-width: 1400px)">
+                      <source srcset="images/slider2.jpg" media="(min-width: 769px)">
+                       <source srcset="images/slider2.jpg" media="(min-width: 577px)">
+                      <img srcset="images/slider2.jpg" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+
+                    <div class="carousel-caption justify-content-center align-items-center">
+                        <div>
+                           <b> <h2 style="color: #00FF00;">TRAFFIC JAM</h2></b>
+                            <p style="color: #00FF00;"><b>The Seventh Most Trafficc Conjested City</b></p>
+                          
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- /.carousel-item -->
+            <div class="carousel-item">
+                <a href="index.html">
+                     <picture>
+                      <source srcset="images/slider3.jpg" media="(min-width: 1400px)">
+                      <source srcset="images/slider3.jpg" media="(min-width: 769px)">
+                       <source srcset="images/slider3.jpg" media="(min-width: 577px)">
+                      <img srcset="images/slider3.jpg" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+
+                    <div class="carousel-caption justify-content-center align-items-center">
+                        <div>
+                            <b><h2 style="color: #00FF00;">THE BRTC</h2></b>
+                            <p style="color: #00FF00;"><b>BRTC are Govt owned bus which is cheeper to travel</b>.</p>
+                          
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+            <div class="carousel-item">
+                <a href="index.html">
+                     <picture>
+                      <source srcset="images/slider4.jpg" media="(min-width: 1400px)">
+                      <source srcset="images/slider4.jpg" media="(min-width: 769px)">
+                       <source srcset="images/slider4.jpg" media="(min-width: 577px)">
+                      <img srcset="images/slider4.jpg" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+
+                    <div class="carousel-caption justify-content-center align-items-center">
+                        <div>
+                            <b><h2 style="color: #00FF00;">RICKSHAW</h2></b>
+                            <p style="color: #00FF00;"><b>The Convenient Vehicle in this city.</b></p>
+                          
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+        </div>
+        <!-- /.carousel-inner -->
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- /.carousel -->
+<!--Sub-header-->
+
+    <div class="sub-header text-center bg-light py-5">
+      <h1 class="mt-5">Search Route For Your Area Local Bus</h1>
+    <h5 class="mb-5 pb-5 text-secondary">Make Your day simpler Just search and Go.</h5>
+
+
+  <!--Portfolio-->
+
+  <section class="portfolio">
+    <div class="row no-gutters">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 hover-fade">
+        <a href="raida.html"><img class="img-fluid" src="images/Raidabus.jpg"></a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 hover-fade">
+        <a href="turag.html"><img class="img-fluid" src="images/turag.jpg"></a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 hover-fade">
+        <a href="brtc.html"><img class="img-fluid" src="images/brtc.jpeg"></a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 hover-fade">
+        <a href="bahon.html"><img class="img-fluid" src="images/bahon.jpg"></a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 hover-fade">
+        <a href="dhakachaka.html"><img class="img-fluid" src="images/Dhakachaka.jpg"></a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 hover-fade">
+        <a href="falgun.html"><img class="img-fluid" src="images/falgun.jpg"></a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 hover-fade">
+        <a href="anabil.html"><img class="img-fluid" src="images/Anabil.jpg"></a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 hover-fade">
+        <a href="b2.html"><img class="img-fluid" src="images/brtc2.jpg"></a>
+      </div>
+      
+    </div>
+  </section>
+    <!--Footer-area-->
+<footer class="footer-area text-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <h4 class="text-light">Local Bus Route Search.</h4>
+      <p>© 2020 , All rights reserved 
+      <br> Develop by Roky Ahmed & Sazzad Rahman Sagar.</p>
+        
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <p><a class="text-secondary" href="mailto:rokyahmed84@gmail.com">rokyahmed84@gmail.com</a> </p>
+
+        <p class="mt-0">+8801687705959</p>
+        
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="row">
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <a class="text-secondary" href="#"><li>Projects</li></a>
+              <a class="text-secondary" href="#"><li>About</li></a>
+              <a class="text-secondary" href="#"><li>Services</li></a>
+              <a class="text-secondary" href="#"><li>Career</li></a>
+            </ul>
+          </div>
+          
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <a class="text-secondary" href="#"><li>Facebook</li></a>
+              <a class="text-secondary" href="#"><li>Twitter</li></a>
+              <a class="text-secondary" href="#"><li>Instagram</li></a>
+              <a class="text-secondary" href="#"><li>Linkedin</li></a>
+            </ul>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
